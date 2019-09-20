@@ -7,6 +7,7 @@
 PET-INFO-OWNER-INFO (PetName, PetType, PetBreed, PetDOB, OwnerLastName, OwnerFirstName, OwnerPhone, OwnerEmail, Service, Date, Charge)
 
 Functional Dependencies: PetName  (PetType, PetBreed, PetDOB, OwnerLastName, OwnerFirstName,    OwnerPhone, OwnerEmail)
+   
    OwnerEmail  (OwnerLastName, OwnerFirstName, OwnerPhone)
    OwnerPhone  (OwnerLastName, OwnerFirstName, OwnerEmail)
    (PetName, Data)  (Service, Charge)
@@ -71,3 +72,5 @@ Every Determinant is a Candidate Key
 Finished Normalized Relations: OWNER-INFO (OwnerEmail, OwnerLastName, OwnerFirstName, OwnerPhone)
 			             PET (PetName, PetType, PetBreed, PetDOB, OwnerEmail)
 			             INFO (PetName, Date, Service, Charge)
+# Flip Grid Video 
+https://flipgrid.com/s/255620016281
